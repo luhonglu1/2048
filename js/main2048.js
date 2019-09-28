@@ -174,9 +174,9 @@ document.addEventListener('touchstart', function (event) {
 });
 
 //移动端滑动无反应bug解决
-// document.addEventListener('touchmove', function (event) {
-//   event.preventDefault();
-// });
+ document.addEventListener('touchmove', function (event) {
+   event.preventDefault();
+ });
 
 
 //捕捉离开点坐标
